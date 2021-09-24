@@ -16,6 +16,7 @@ void setup()
 void draw()
 {
      //Guy
+     noStroke();
   fill(255,218,185);
   ellipse(500,250,100,100);
   fill(0);
