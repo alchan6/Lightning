@@ -15,19 +15,7 @@ void setup()
 }
 void draw()
 {
-  int colornum1 = (int)(Math.random()*255)+50;
-  int colornum2 = (int)(Math.random()*255)+50;
-  int colornum3 = (int)(Math.random()*255)+50;
-  stroke(colornum1,colornum2,colornum3);
-  while(endX < 400){
-  endX = startX + (int)(Math.random()*25)-9;
-  endY = startY + (int)(Math.random()*25)-9;
-  line(startX,startY,endX,endY);
-  startX = endX;
-  startY = endY;
-  
-  
-    //Guy
+  //Guy
   fill(255,218,185);
   ellipse(500,250,100,100);
   fill(0);
@@ -48,7 +36,19 @@ void draw()
  ellipse(50,50,100,50);
  ellipse(100,20,100,50);
  ellipse(130,50,100,50);
-  }
+ 
+  int colornum1 = (int)(Math.random()*255)+50;
+  int colornum2 = (int)(Math.random()*255)+50;
+  int colornum3 = (int)(Math.random()*255)+50;
+  stroke(colornum1,colornum2,colornum3);
+  while(endX < 400){
+  endX = startX + (int)(Math.random()*25)-9;
+  endY = startY + (int)(Math.random()*25)-9;
+  line(startX,startY,endX,endY);
+  startX = endX;
+  startY = endY;
+  
+
 }
 void mousePressed()
 {
