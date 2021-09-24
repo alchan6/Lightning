@@ -3,11 +3,19 @@ int startY = 55;
 int endX = 50;
 int endY = 400;
 
-  
+
 void setup()
 {   
     background(0);
-    //Guy
+ 
+ 
+  size(600,600);
+  strokeWeight(15);
+
+}
+void draw()
+{
+     //Guy
   fill(255,218,185);
   ellipse(500,250,100,100);
   fill(0);
@@ -28,13 +36,6 @@ void setup()
  ellipse(50,50,100,50);
  ellipse(100,20,100,50);
  ellipse(130,50,100,50);
- 
-  size(600,600);
-  strokeWeight(15);
-
-}
-void draw()
-{
   int colornum1 = (int)(Math.random()*255)+50;
   int colornum2 = (int)(Math.random()*255)+50;
   int colornum3 = (int)(Math.random()*255)+50;
