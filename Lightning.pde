@@ -7,6 +7,7 @@ int endY = 400;
 void setup()
 {   
     background(0);
+    size(600,600);
     //Guy
   fill(255,218,185);
   ellipse(500,250,100,100);
@@ -30,7 +31,7 @@ void setup()
  ellipse(130,50,100,50);
  
  
-  size(600,600);
+
   strokeWeight(15);
 
 }
