@@ -7,7 +7,6 @@ int endY = 400;
 void setup()
 {   
     background(0);
-    size(600,600);
     //Guy
   fill(255,218,185);
   ellipse(500,250,100,100);
@@ -30,14 +29,12 @@ void setup()
  ellipse(100,20,100,50);
  ellipse(130,50,100,50);
  
- 
-
+  size(600,600);
   strokeWeight(15);
 
 }
 void draw()
 {
-
   int colornum1 = (int)(Math.random()*255)+50;
   int colornum2 = (int)(Math.random()*255)+50;
   int colornum3 = (int)(Math.random()*255)+50;
@@ -48,8 +45,7 @@ void draw()
   line(startX,startY,endX,endY);
   startX = endX;
   startY = endY;
-  
-
+  }
 }
 void mousePressed()
 {
